@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+<head>
+<style>
+head
+{
+color:yellow;
+}
+body
+{
+ background-color: #011363;
+ color:yellow;
+ font-family: Verdana;
+}
+a
+{
+color:yellow;
+}
+p
+{
+color:yellow;
+}
+footer
+{
+color:yellow;
+}
+</style>
+</head>
+
+<body>
+
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+  {% include google-analytics.html %}
+
+</body>
+
+</html>
