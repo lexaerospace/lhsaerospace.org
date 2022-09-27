@@ -21,12 +21,14 @@
 title: Lexington Aerospace Club
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
- 
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 instagram_username: lhsaerospace
 github_username: lexaerospace
+author: Daniel Carreno 
 
 # Build settings
 theme: jekyll-theme-clean-blog
